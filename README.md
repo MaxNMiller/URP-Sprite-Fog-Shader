@@ -1,5 +1,6 @@
 # URP-Sprite-Fog-Shader
 A simple custom shader to make 2D sprites interact with Unity URP's built-in fog
+
 ![](https://github.com/MaxNMiller/URP-Sprite-Fog-Shader/blob/main/Example.gif)
 ---
 
