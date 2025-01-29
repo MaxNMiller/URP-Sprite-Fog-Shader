@@ -13,14 +13,6 @@ This breaks immersion in 2.5D games where fog is critical for atmosphere.
 
 ---
 
-## 🔧 Technical Details  
-### How It Works  
-- **Depth Buffer**: The shader enables `ZWrite On`, forcing sprites to write depth data.  
-- **Fog Calculation**: In the fragment shader, `MixFog` blends the sprite’s color with URP’s fog using the depth value.  
-- **Vertex Stage**: World position and depth are calculated to align with URP’s fog math.  
-
----
-
 ## 🚀 Features  
 - ✅ Works with **perspective and orthographic cameras**.  
 - ✅ Maintains sprite transparency/alpha.  
